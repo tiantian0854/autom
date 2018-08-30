@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demo_suite1" verbose="1">
+	<test name="round1">
+		<parameter name="name" value="小明" />
+		<parameter name="age" value="16" />
+		<classes>
+			<class name="com.dic.autom.Parametertest" />
+			<class name="com.dic.autom.CalcTest" />
+
+		</classes>
+	</test>
+
+</suite>

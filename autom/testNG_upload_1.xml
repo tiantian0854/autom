@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="demo_suite1">
+	<listeners>
+		<listener class-name="com.dic.upload.utils.UploadTestListener" />
+	</listeners>
+	<test name="round1">
+		<classes>
+			 <class name="com.dic.upload.utils.AfterUpload" />
+			<class name="com.dic.upload.test.LoginTest2" />
+ 		</classes>
+	</test>
+
+
+<!-- 	<test name="round2">
+		<packages>
+			<package name="com.dic.upload.test" />
+		</packages>
+	</test> -->
+<!-- 	<suite-files> <suite-file path="target/surefire-reports/testng-failed.xml"/> 
+		</suite-files> -->
+</suite>
